@@ -1,7 +1,6 @@
 node_modules
 
-temp/uploads/*.jpg
-temp/uploads/*.png
+temp/uploads/*
 
 !temp/uploads/.gitkeep
-!temp/uploads/*.svg
+!temp/uploads/.svg
