@@ -9,6 +9,6 @@ app.use(express.json())
 app.use(routes)
 app.use('/uploads', express.static(path.resolve(__dirname, "..", "temp", "uploads")))
 
-app.listen(3333, () =>{
+app.listen(process.env.PORT || 3333, () =>{
   console.log('Started Server in Port 3333!')
 })
