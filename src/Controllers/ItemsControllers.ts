@@ -10,7 +10,7 @@ export default class ItemsControllers {
         id: item.id,
         title: item.title,
         /* exp://192.168.0.10:19000 */
-        image_url: `http://192.168.0.10:3333/uploads/${item.image}`
+        image_url: `http://10.0.0.112:3333/uploads/${item.image}`
       }
     })
 
